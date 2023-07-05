@@ -69,6 +69,11 @@ const questions = [
     name: "contributors",
     message: "Please enter any contributors to this project.",
   },
+  {
+    type: "input",
+    name: "test",
+    message: "Please provide examples on how to run tests if applicabale.",
+  },
 ];
 
 //write a README file

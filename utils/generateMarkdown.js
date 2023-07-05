@@ -47,11 +47,11 @@ function generateMarkdown(data) {
     ## Contact
     * Name - ${date.name}
     * Email - ${data.email}
-    * GitHub - ${data.github}
+    * GitHub - [${data.github}](https://github.com/${data.github}/)
     ## Contributors
     ${data.contributors}
     ## Testing
-
+    ${data.test}
     ${renderLicenseSection(data.license)}
 
 `;
