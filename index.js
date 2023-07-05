@@ -3,7 +3,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
-const generateMarkdown = require("generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 //array of questions for user input
 const questions = [
@@ -21,12 +21,12 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "",
+    message: "Please enter the required steps to install this application.",
   },
   {
     type: "input",
     name: "usage",
-    message: "Please ",
+    message: "Please enter instructions and examples of use of application.",
   },
   {
     type: "checkbox",
@@ -49,7 +49,26 @@ const questions = [
       "none",
     ],
   },
-  {},
+  {
+    type: "input",
+    name: "github",
+    message: "Please enter your GitHub username.",
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "Please enter your full name.",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter your email adress.",
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Please enter any contributors to this project.",
+  },
 ];
 
 //write a README file

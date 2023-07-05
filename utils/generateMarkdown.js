@@ -45,8 +45,14 @@ function generateMarkdown(data) {
     ## Usage
     ${data.usage}
     ## Contact
-
+    * Name - ${date.name}
+    * Email - ${data.email}
+    * GitHub - ${data.github}
     ## Contributors
+    ${data.contributors}
+    ## Testing
+
+    ${renderLicenseSection(data.license)}
 
 `;
 }
