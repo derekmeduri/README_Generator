@@ -2,7 +2,7 @@
 //if there is no license, we want to return an empty string
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![badge](https://img.shields.io/badge/license-${license}-brightgreen.svg)`;
+    return `\n![badge](https://img.shields.io/badge/license-${license}-brightgreen.svg)\n`;
   }
   return "";
 }
@@ -28,10 +28,7 @@ function renderLicenseSection(license) {
 
 //Creating a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-    
-    ${renderLicenseBadge(data.license)}  
-    \n
+  return `# ${data.title}``${renderLicenseBadge(data.license)}``
     ## Table of Contents
     \n
     * [Description](#Description)
@@ -63,11 +60,7 @@ function generateMarkdown(data) {
     ${data.contributors}
 
     ## Testing
-    ${data.test}
-
-    ${renderLicenseSection(data.license)}
-
-`;
+    ${data.test}``${renderLicenseSection(data.license)}`;
 }
 
 module.exports = generateMarkdown;

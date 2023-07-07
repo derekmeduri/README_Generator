@@ -25,7 +25,8 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "Please enter instructions and examples of use of application.",
+    message:
+      "Please describe the use allowed for this application (i.e. personal or commericial).",
   },
   {
     type: "checkbox",
