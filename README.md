@@ -68,3 +68,7 @@
     ## License
 
     Licensed under MIT License.
+
+    ## Source Code
+
+    Received starter code from Ohio State Full Stack Development Bootcamp (OSU-VIRT-FSF-PT-04-2023-U-LOLC)
