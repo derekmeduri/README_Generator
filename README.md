@@ -21,7 +21,9 @@
     ## Link
 
     [Demo Link](https://drive.google.com/file/d/17YOr0eplXwdNldBIQBEgW6lJ7nV1G3FL/view)
+
     ![QR Code](./assets/readmeqrcode.jpg)
+
     [Github Repository](https://github.com/derekmeduri/README_Generator)
 
     ## Screenshots
