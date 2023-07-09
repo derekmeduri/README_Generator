@@ -18,6 +18,22 @@
 
 - - [License](#License)
 
+    ## Link
+
+    [Demo Link](https://drive.google.com/file/d/17YOr0eplXwdNldBIQBEgW6lJ7nV1G3FL/view)
+    ![QR Code](./assets/readmeqrcode.jpg)
+    [Github Repository](https://github.com/derekmeduri/README_Generator)
+
+    ## Screenshots
+
+    ![Preview of Application](./assets/readmeapp.png)
+
+    When selecting a license use the arrow keys to navigate between choices, then hit spacebar to make a selection and finally hit enter to move on to next prompt.
+
+    ![Using arrow keys](./assets/usearrows.png)
+    ![Making selection](./assets/selection.png)
+    ![Using enter key to select](./assets/enter.png)
+
     ## Description
 
     Creating README.md files with command line functions and prompts.
