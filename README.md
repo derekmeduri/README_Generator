@@ -28,6 +28,7 @@
 
     ## Screenshots
 
+    Preview of finished questions in terminal:
     ![Preview of Application](./assets/readmeapp.png)
 
     When selecting a license use the arrow keys to navigate between choices, then hit spacebar to make a selection and finally hit enter to move on to next prompt.
